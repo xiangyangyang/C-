@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MyClockProject - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP8A70.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/MyClockProject.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\MyProject\MyClockProject\TimeZone.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP8A70.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP8A71.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/MyClockProject.pdb" /machine:I386 /out:"Release/MyClockProject.exe" 
+.\Release\ClockBackground.obj
+.\Release\ClockBase.obj
+.\Release\ClockExe.obj
+.\Release\MyClockProject.obj
+.\Release\MyClockProjectDlg.obj
+.\Release\Pointer.obj
+.\Release\StdAfx.obj
+.\Release\TimeZone.obj
+.\Release\MyClockProject.res
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP8A71.tmp"
+<h3>Output Window</h3>
+Compiling...
+TimeZone.cpp
+Linking...
+LINK : warning LNK4098: defaultlib "MSVCRT" conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4089: all references to "SHELL32.dll" discarded by /OPT:REF
+
+
+
+<h3>Results</h3>
+MyClockProject.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
